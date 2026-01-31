@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Data & artifacts
+data/raw/
+data/processed/
+models/
+mlruns/
+reports/figures/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Misc
+*.log
+.DS_Store
