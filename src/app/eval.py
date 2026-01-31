@@ -11,8 +11,11 @@ class Metrics:
     f1: float
 
 
+POS_LABEL = ">50K"
+
+
 def evaluate(y_true, y_pred) -> Metrics:
     return Metrics(
-        accuracy=float(accuracy_score(y_true, y_pred)),
-        f1=float(f1_score(y_true, y_pred)),
+        accuracy=accuracy_score(y_true, y_pred),
+        f1=f1_score(y_true, y_pred, pos_label=POS_LABEL, average="binary"),
     )
