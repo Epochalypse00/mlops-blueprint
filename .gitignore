@@ -17,3 +17,4 @@ dist/
 # Misc
 *.log
 .DS_Store
+reports/predictions*.json
