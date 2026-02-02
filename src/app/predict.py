@@ -50,7 +50,7 @@ def _read_json_rows(path: Path) -> list[dict[str, Any]]:
       - a single JSON object
       - a JSON list of objects
     """
-    text = path.read_text(encoding="utf-8").strip()
+    text = path.read_text(encoding="utf-8-sig")
     if not text:
         raise ValueError(f"Input file is empty: {path}")
 
