@@ -7,28 +7,6 @@ The goal is not model complexity, but to demonstrate **how ML should be built, t
 
 If you can understand and extend this repo, you can work on real ML systems.
 
----
-
-## Why this repo exists
-
-Many ML projects focus on:
-
-* flashy models
-* notebooks
-* single scripts
-
-Real ML engineering focuses on:
-
-* reproducibility
-* clear data flow
-* testable components
-* safe training & inference
-* predictable interfaces
-
-This repo shows **how to structure an ML project like a software engineer**, not like a Kaggle notebook.
-
----
-
 ## What this project does
 
 ### Goal
@@ -289,5 +267,6 @@ pytest
 * Professional Git history
 
 This is the kind of repo you **build on**, not throw away.
+
 
 
